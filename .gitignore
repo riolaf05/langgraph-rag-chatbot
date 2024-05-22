@@ -1,0 +1,9 @@
+**.zip
+**.backup
+**layer/
+.env
+**venv/
+**__pycache__
+dist/
+**record_manager_*
+agentic-rag-llama3.ipynb
