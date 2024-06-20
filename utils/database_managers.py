@@ -142,7 +142,7 @@ class QDrantDBManager:
         self.collection_name = collection_name
         self.vector_size = vector_size
         self.embedding = embedding
-        self.client = QdrantClient(url, port=6333)
+        self.client = QdrantClient(url, port=6333, api_key=os.getenv('QDRANT_API_KEY'))
         self.record_manager_url = record_manager_url
 
         try:
